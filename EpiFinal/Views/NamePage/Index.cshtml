@@ -1,0 +1,13 @@
+﻿@using EpiFinal
+@model PageViewModel<NamePage>
+
+<div>
+    <div>
+        @Html.PropertyFor(m => m.CurrentPage.MainBody)
+    </div>
+    <div>
+        @Html.PropertyFor(m => m.CurrentPage.UserName)
+    </div>
+
+    @*@Html.PropertyFor(m => m.CurrentPage.DogShit)*@
+</div>
