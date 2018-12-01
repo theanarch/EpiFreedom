@@ -9,7 +9,7 @@ using EPiServer.SpecializedProperties;
 namespace EpiFinal.Models.Pages
 {
     [SiteContentType(
-        DisplayName = "Name Page in Controller",
+        DisplayName = "Name Page Updated",
         GUID = "acd826ee-340c-44b8-9b91-92aa397be65d",
         GroupName = Global.GroupNames.Default)]
     public class NamePage : SitePageData
